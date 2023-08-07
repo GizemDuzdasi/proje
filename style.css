@@ -1,0 +1,116 @@
+.ayrac{
+    margin: 0px 20px;
+} 
+.nav-bg{
+    background-color:rgb(204, 112, 187);
+}
+.ust-kisim{
+    background-image:url(resimlerproje/yazilim-min.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.ust-kisim-sayfalar{
+    background-image:url(resimlerproje/cv2.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.nav-item a{
+    color: #000;
+    font-size:16px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+/*.navbar-toggler-icon{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}*/
+@media (max-width:576px){
+    .navbar {
+        padding: 10px 15px;
+    }
+ .ayrac{
+    display:none; 
+ }
+ .nav-item:hover{
+    background-color:white-space;
+ }
+} 
+
+
+
+   
+    
+.tirnak{
+    color:rgb(42, 190, 96);
+    font-size: 75px;
+    font-weight: bold;
+}
+.imza{
+    font-size: 50px;
+}
+.yapı{
+    font-size:large;
+}
+.tanıtım{
+    font-size: medium;
+
+}
+.bük{
+    color:black;
+    background-position: center center;
+    padding: 10px 15px;
+    font-size: 30px;
+    
+}
+.miras-kisim{    background-image:url(resimlerproje/miras1.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.cv1-kisim{
+    background-position: center center;
+    padding: 10px 15px;
+    
+    
+
+}
+.giris-kisim{
+    background-image:url(resimlerproje/giris.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.giris1-kisim{
+    color: plum;
+}
+.iletisim-kisim{
+    background-image:url(resimlerproje/kanberoglu-iletiYim.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.carousel-item {
+    cursor: pointer;
+}
